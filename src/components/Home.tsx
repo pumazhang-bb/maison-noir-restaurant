@@ -41,6 +41,8 @@ export default function Home({ onNavigate }: HomeProps) {
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuCATUhJ3bSgY6VwbjF1P9zxNs6Pz_Nb4xKTNKswPxc7gS5fEAWs4RlVs6F8WC3O9EpdgDT5NDFdVjHzYomMYtWpgINb9_pcp8x79X38xBUCu0ItGqOwuCJBLRL4HprajWerBtcJqGnDhS78glfJXVTi-9h2lYyS21TYWTl4BnRqDYwKQnaQmn9MP37_RekeGTRlmjHbRixR2kFpo9A4Ae6ZTNUOZe8TOKVCqzqsrHjBicwAH5wnyLE1q7ugRrm8VJNQKydPYoO4E1nJ"
             alt="Maison Noir Culinary Theater"
             onLoad={() => setImagesLoaded(prev => ({ ...prev, hero: true }))}
+            width="1920"
+            height="1080"
             className={`w-full h-full object-cover brightness-[0.22] contrast-[1.08] transition-all duration-[2500ms] ease-[cubic-bezier(0.16,1,0.3,1)] ${
               imagesLoaded['hero'] ? 'opacity-100 scale-100' : 'opacity-0 scale-[1.05]'
             }`}
@@ -137,11 +139,11 @@ export default function Home({ onNavigate }: HomeProps) {
 
             <motion.div variants={fadeInUp} className="mt-10 grid grid-cols-2 gap-8 pt-8 border-t border-white/5 font-display text-xs tracking-widest uppercase">
               <div>
-                <h4 className="text-white font-medium mb-1">Obsidian Seating</h4>
+                <h3 className="text-white font-medium mb-1">Obsidian Seating</h3>
                 <p className="text-neutral-500 font-sans text-[11px] tracking-normal lowercase">chilled black stone slab designs</p>
               </div>
               <div>
-                <h4 className="text-white font-medium mb-1">8 Seat Counter</h4>
+                <h3 className="text-white font-medium mb-1">8 Seat Counter</h3>
                 <p className="text-neutral-500 font-sans text-[11px] tracking-normal lowercase">intimate front-row interaction</p>
               </div>
             </motion.div>
@@ -160,6 +162,8 @@ export default function Home({ onNavigate }: HomeProps) {
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnLZHs24riHGkb4-jkTNFh-x-HDsS25UJZU2_FCJzfBn0NjhHbGk-9JHkcBw-WGUCgQxUKEgExOa8zRI6NAe1FH0iwukxec108J3hqjFM_hH6RheTq8Q9ECDNSWbVRhsWYx0X6kAkyo1Ylwod2G__Lt4ha-pQPJldxMh1BRKnAwj6FuSHWZ6t2nD16jSOq3xGHa52qQek0ADoU0ujqeZtrv6udQAF1OJwoGSxV-LZHLRljwmTpSMUZlUjsKVo895cMKTFOGJs4MLRO"
               alt="Maison Noir Dim Dining Room"
               onLoad={() => setImagesLoaded(prev => ({ ...prev, dining: true }))}
+              width="800"
+              height="600"
               className={`w-full aspect-[4/3] object-cover border border-white/10 grayscale group-hover:grayscale-0 transition-all duration-[2000ms] ease-[cubic-bezier(0.16,1,0.3,1)] ${
                 imagesLoaded['dining'] ? 'opacity-100 scale-100' : 'opacity-0 scale-[1.03]'
               } group-hover:scale-[1.02]`}
@@ -206,6 +210,8 @@ export default function Home({ onNavigate }: HomeProps) {
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDnnTr-Yms3nZFPq7b-8bDvGrFlORQMz24FUtt9Qwle-lFqefRqgbEnkeSK0UuUJ2CxvsyBmtGm_1-RRNsxBAc_i6UIyhJJKJ9OaAMTW65dYCwE_u4_OcITrpbRRpHaGJQ-6Tf-1-IJjKWqEnkWeQBk3u8--wxWMooArmyVp2cWjJk-b-HUAxDLHpawY4aTUWkOlvXWJopV6s_WuZOqmHXLihLCfPHB3V_kosxCxQZCQi595Kem65YvTNMY80qnxXsHQGzfXhHNeBt"
                   alt="Coquilles"
                   onLoad={() => setImagesLoaded(prev => ({ ...prev, coquilles: true }))}
+                  width="600"
+                  height="450"
                   className={`w-full h-full object-cover grayscale brightness-[0.85] contrast-[1.05] transition-all duration-[1800ms] ease-[cubic-bezier(0.16,1,0.3,1)] ${
                     imagesLoaded['coquilles'] ? 'opacity-100 scale-100' : 'opacity-0 scale-105'
                   } group-hover:grayscale-0 group-hover:scale-[1.025] group-hover:brightness-100`}
@@ -240,6 +246,8 @@ export default function Home({ onNavigate }: HomeProps) {
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuDO7An5YyLrdIAyTdxPy83JGMavGDfr_yNIoHRToBZojYnM3-K0nJmzALN-0CiYxfrgPq1DE2EDocC2iWs66uCw1gYI-JDokmX5bAVRL57VLyk53EfVZzSReNo6YEIpM1s9D4CJsKwpmRjoliOt7L-58lNoFyI49JzzJWPMoqsm6rICGba1MJw9rjV7aZT5X_b8GylZcwRFsNW75S8A7HHjC7PK0OuSosLuu6KCwQ2R-ZGLfsbeOrrJnjmGL-Ndp9ZVg1IfpM-gX4sE"
                   alt="Truffle Risotto"
                   onLoad={() => setImagesLoaded(prev => ({ ...prev, risotto: true }))}
+                  width="600"
+                  height="450"
                   className={`w-full h-full object-cover grayscale brightness-[0.85] contrast-[1.05] transition-all duration-[1800ms] ease-[cubic-bezier(0.16,1,0.3,1)] ${
                     imagesLoaded['risotto'] ? 'opacity-100 scale-100' : 'opacity-0 scale-105'
                   } group-hover:grayscale-0 group-hover:scale-[1.025] group-hover:brightness-100`}
@@ -274,6 +282,8 @@ export default function Home({ onNavigate }: HomeProps) {
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuDV4Gss0FrhK6D9MD6rFOUzNnxX1fh-5GOIdNCshyDJUmaeQKmmiYlQNlA4LXjE3EuowE8Vaaq68-Eu3xWjM_btqUqHjbNfUzHoreZYZP8v31S5MJHl3sLDyhvKZhTVGtsZcJU2LdHVDEsOqVWwatWWNYAD7T6vPG8Ulo3qS9NIzeVzW51tGbOqMTUF0PNtk2NzDSGxbS_DyFqVG45Mv01LPRQWrJz4w9Zp1-BK5DearMvkFvJb2SAa_DWseUkCr32eD3muKghWKj57"
                   alt="Wagyu A5 Filet"
                   onLoad={() => setImagesLoaded(prev => ({ ...prev, wagyu: true }))}
+                  width="600"
+                  height="450"
                   className={`w-full h-full object-cover grayscale brightness-[0.85] contrast-[1.05] transition-all duration-[1800ms] ease-[cubic-bezier(0.16,1,0.3,1)] ${
                     imagesLoaded['wagyu'] ? 'opacity-100 scale-100' : 'opacity-0 scale-105'
                   } group-hover:grayscale-0 group-hover:scale-[1.025] group-hover:brightness-100`}
@@ -331,6 +341,8 @@ export default function Home({ onNavigate }: HomeProps) {
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVNd1Q0ZMUbkLkDpr-HQLL2jC9VEV7Hi74pkg5w16bwFheyMGtLOGsJ22WGXAta3UDCCNu8aptf77bOT30xmC-p4etLvsuZIJSCPXrpUPyGBCKNRRAb9lapXLki-6uwLeDF-aQgSSs18MMTB5lEOmKiGfyh4b3l344nffUk80NMehfnese9GhTRbphSkNPemMSu-e5srEQuLvNINImuPiPGkIci2ShVPWJhgsVfHuBYY9V3gwddDI2rjHf1DR7vlS5FMp3z9tsum3n"
                 alt="Executive Chef Julien Renard"
                 onLoad={() => setImagesLoaded(prev => ({ ...prev, chef: true }))}
+                width="600"
+                height="800"
                 className={`w-full h-full object-cover grayscale brightness-[0.8] transition-all duration-[2000ms] ease-[cubic-bezier(0.16,1,0.3,1)] ${
                   imagesLoaded['chef'] ? 'opacity-100 scale-100' : 'opacity-0 scale-105'
                 } group-hover:grayscale-0 group-hover:scale-[1.02] group-hover:brightness-100`}
@@ -376,6 +388,8 @@ export default function Home({ onNavigate }: HomeProps) {
               <img
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpqMn3owP_rAEOgCbLLCD68-glEzExsD--Vo0YeIdayL2Y8PB7N3winf5MVr3w9V1S4uG3FEFvA4LrsgjNYfGy-B3NgLp5J4OFv5aF1Vj8Y7J914TZa0Mpv10X0MEVDEdxYAyPNaxi5eOjfbKyeyZxaKY3x4Jm80AbQI-czkBNJLhI75XlUM_bpmtZ4jBO67HH5zK7J0WhztW8Z-O0mzR2lUomesduZKuDEAUidCVcZ4YXKYt7UQloudkzPiqJuIor0lolVCFnWk10"
                 alt="Chef Julien Renard Signature"
+                width="160"
+                height="64"
                 className="h-16 w-auto opacity-70 filter brightness-150 contrast-120 hover:opacity-100 transition-opacity duration-500"
                 referrerPolicy="no-referrer"
               />
@@ -418,6 +432,8 @@ export default function Home({ onNavigate }: HomeProps) {
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsq-OnSoWAdGFlDQUd5XdQFl7AC5edxiknU570RvyZKjwQmJUJ4UEK-f56MFgpCWVInkQix4ttLOjRMwnKwbnh4dzLi7s7Ym_CTrb5BoMFgrUZO-CE4FZLvG8vEcE-mKNukvJ51ixWHSkMtFZwb7hT1KTkz_mrC9Qews-U_Mj2RU72IvD_UGvPxyLUbiHBVZHIjRH3SJKAILC5Z5GCnxDwi-enZVgifYBWzdK2kjYg5pw-NFkaRf44OGP3uJUC2X0c0fPiaU0gIbnw"
             alt="Maison Noir Cinematic Table Setting"
             onLoad={() => setImagesLoaded(prev => ({ ...prev, cta: true }))}
+            width="1920"
+            height="1080"
             className="w-full h-full object-cover brightness-[0.7] contrast-[1.1]"
             referrerPolicy="no-referrer"
             loading="lazy"

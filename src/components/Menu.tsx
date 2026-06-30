@@ -274,6 +274,8 @@ export default function Menu({ onAskChef }: MenuProps) {
                   src={item.image}
                   alt={item.name}
                   onLoad={() => setImagesLoaded(prev => ({ ...prev, [item.id]: true }))}
+                  width="400"
+                  height="300"
                   className={`w-full h-full object-cover grayscale brightness-[0.85] contrast-[1.05] group-hover:grayscale-0 transition-all duration-[1800ms] ease-[cubic-bezier(0.16,1,0.3,1)] ${
                     imagesLoaded[item.id] ? 'opacity-100 scale-100' : 'opacity-0 scale-103'
                   } group-hover:scale-[1.02] group-hover:brightness-100`}
@@ -291,9 +293,9 @@ export default function Menu({ onAskChef }: MenuProps) {
               <div className="sm:w-3/5 p-6 sm:p-8 flex flex-col justify-between">
                 <div>
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="font-display text-base sm:text-lg text-white tracking-widest uppercase group-hover:text-amber-300 transition-colors">
+                    <h2 className="font-display text-base sm:text-lg text-white tracking-widest uppercase group-hover:text-amber-300 transition-colors">
                       {item.name}
-                    </h3>
+                    </h2>
                     <span className="font-display text-base text-amber-400/90 ml-4 font-light">
                       ${item.price}
                     </span>
@@ -371,7 +373,7 @@ export default function Menu({ onAskChef }: MenuProps) {
 
                 <div className="space-y-2">
                   <span className="font-mono text-[9px] text-amber-500/60 tracking-widest uppercase block">CURATED ELEMENTARY VALUES</span>
-                  <h3 className="font-display text-xl text-white tracking-widest uppercase">{selectedItem.name}</h3>
+                  <h2 className="font-display text-xl text-white tracking-widest uppercase">{selectedItem.name}</h2>
                   <p className="font-serif italic text-xs text-neutral-400">{selectedItem.description}</p>
                 </div>
 

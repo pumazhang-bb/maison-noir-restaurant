@@ -27,7 +27,7 @@ export default function Footer({ onNavigate }: FooterProps) {
 
         {/* Hour Column */}
         <div className="space-y-5">
-          <h4 className="font-display text-xs text-white tracking-[0.2em] uppercase font-bold">HOURS</h4>
+          <h3 className="font-display text-xs text-white tracking-[0.2em] uppercase font-bold">HOURS</h3>
           <div className="space-y-3 text-xs font-light">
             <div className="flex items-center space-x-2.5">
               <Clock className="w-3.5 h-3.5 text-amber-500/40 shrink-0" />
@@ -40,7 +40,7 @@ export default function Footer({ onNavigate }: FooterProps) {
 
         {/* Location Column */}
         <div className="space-y-5">
-          <h4 className="font-display text-xs text-white tracking-[0.2em] uppercase font-bold">LOCATION</h4>
+          <h3 className="font-display text-xs text-white tracking-[0.2em] uppercase font-bold">LOCATION</h3>
           <div className="space-y-3 text-xs font-light">
             <div className="flex items-start space-x-2.5">
               <MapPin className="w-3.5 h-3.5 text-amber-500/40 shrink-0 mt-0.5" />
@@ -52,7 +52,7 @@ export default function Footer({ onNavigate }: FooterProps) {
 
         {/* Navigation & Contact Column */}
         <div className="space-y-5">
-          <h4 className="font-display text-xs text-white tracking-[0.2em] uppercase font-bold">CONTACT</h4>
+          <h3 className="font-display text-xs text-white tracking-[0.2em] uppercase font-bold">CONTACT</h3>
           <div className="space-y-3 text-xs font-light">
             <div className="flex items-center space-x-2.5">
               <Phone className="w-3.5 h-3.5 text-amber-500/40 shrink-0" />

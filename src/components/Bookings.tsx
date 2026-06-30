@@ -134,9 +134,9 @@ export default function Bookings({ sessionBookings }: BookingsProps) {
           {/* Left Column: Lookup Form */}
           <div className="lg:col-span-4 space-y-8">
             <div className="bg-[#080808] border border-white/5 p-6 sm:p-8 space-y-6">
-              <h3 className="font-display text-xs tracking-[0.2em] text-amber-400 font-bold uppercase pb-3 border-b border-white/5">
+              <h2 className="font-display text-xs tracking-[0.2em] text-amber-400 font-bold uppercase pb-3 border-b border-white/5">
                 Retrieve Placement
-              </h3>
+              </h2>
 
               <form onSubmit={handleLookup} className="space-y-4">
                 <div>
@@ -223,10 +223,10 @@ export default function Bookings({ sessionBookings }: BookingsProps) {
           {/* Right Column: Seating Registry List */}
           <div className="lg:col-span-8 space-y-6">
             <div className="flex justify-between items-center pb-3 border-b border-white/5">
-              <h3 className="font-display text-xs tracking-widest text-white font-bold uppercase flex items-center space-x-2">
+              <h2 className="font-display text-xs tracking-widest text-white font-bold uppercase flex items-center space-x-2">
                 <Compass className="w-4 h-4 text-amber-500" />
                 <span>Active Table Seating Registry</span>
-              </h3>
+              </h2>
               
               <button
                 onClick={fetchBookings}
@@ -314,7 +314,7 @@ export default function Bookings({ sessionBookings }: BookingsProps) {
             >
               <div className="space-y-2">
                 <span className="font-mono text-[9px] text-red-500/80 tracking-widest uppercase block">DANGER ZONE</span>
-                <h3 className="font-display text-xl text-white tracking-widest uppercase">CANCEL PLACEMENT?</h3>
+                <h2 className="font-display text-xl text-white tracking-widest uppercase">CANCEL PLACEMENT?</h2>
                 <p className="font-sans text-xs text-neutral-400 leading-relaxed">
                   Are you absolutely certain you want to cancel the active dining table reservation <strong className="text-white font-mono">{confirmCancelItem.code}</strong>? This action is irreversible.
                 </p>
