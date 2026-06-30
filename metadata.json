@@ -1,0 +1,6 @@
+{
+  "name": "Maison Noir Restaurant",
+  "description": "An elegant, immersive digital home for Maison Noir, a modern luxury gastronomy restaurant. Featuring interactive seasonal menus, a reservation suite, and an AI chef concierge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
